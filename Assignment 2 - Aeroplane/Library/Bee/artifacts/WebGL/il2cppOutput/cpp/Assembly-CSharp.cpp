@@ -317,10 +317,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FollowPlayerX_Update_m657B1EB411925E30C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FollowPlayerX__ctor_m95820EBAEB39F06210CD082F86E5B37AFDCB3ECE (FollowPlayerX_tC117483BA23DC543D614FB4500936CC09D1D1637* __this, const RuntimeMethod* method) 
 {
 	{
-		// private Vector3 offset = new Vector3(16,3,-3);
+		// private Vector3 offset = new Vector3(20,0,0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (16.0f), (3.0f), (-3.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (20.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		__this->___offset_5 = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
